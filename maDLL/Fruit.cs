@@ -6,12 +6,14 @@ namespace maDLL {
     public class Fruit : Vegetal {
         public bool HasPepins = false;
 
-        //constructeurs surchages
+       
+        //constructeurs surchages (polymorphisme1)
         public Fruit() { }
         public Fruit(bool arg) {
             HasPepins = arg;
         }
 
+        //polymorphism de substitution
         public override string SeMange() {
             return "au dessert";
         }
@@ -24,6 +26,7 @@ namespace maDLL {
             return "abeilles et oiseaux";
         }
 
+        //methode supplementaire 
         public string PresenceDePepins() {
             if (HasPepins) {
                 return "oui, il y a des pepins";

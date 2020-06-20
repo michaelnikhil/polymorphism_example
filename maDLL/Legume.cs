@@ -15,5 +15,22 @@ namespace maDLL {
         public override string SeReproduit() {
             return "semences";
         }
+
+        public string Preparation() {
+            return "epluchage";
+        }
     }
-}
+
+    public class Haricots : Legume {
+
+        //polymorphisme de substitution
+        public new string Preparation() {
+            return "pas d'epluchage";
+        }
+    }
+    public class Poireaux : Legume {
+        public override string SeMange() {
+            return "cuisson vapeur et wok";
+        }
+    }
+    }
