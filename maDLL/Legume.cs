@@ -23,7 +23,7 @@ namespace maDLL {
 
     public class Haricots : Legume {
 
-        //polymorphisme de substitution
+        //polymorphisme de substitution forcee
         public new string Preparation() {
             return "pas d'epluchage";
         }

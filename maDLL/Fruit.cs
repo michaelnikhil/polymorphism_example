@@ -7,7 +7,7 @@ namespace maDLL {
         public bool HasPepins = false;
 
        
-        //constructeurs surchages (polymorphisme1)
+        //polymorphisme de constructeurs surchages 
         public Fruit() { }
         public Fruit(bool arg) {
             HasPepins = arg;
